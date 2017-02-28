@@ -31,7 +31,7 @@ struct Future_Value {
      - Important: This code has not been reviewed for QA
      - Version: 0.1
     */
-    func furtureMultipleValue(sum :Double, interest: Double, period: Int) -> Double{
+    func futureMultipleValue(sum :Double, interest: Double, period: Int) -> Double{
         let c = interest/100/12
         return(sum * ((pow(Double(1 + c), Double(period))) - 1))/c
     }
